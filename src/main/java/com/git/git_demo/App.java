@@ -10,6 +10,9 @@ public class App
 	
 	public void getData(String name) {
 		System.out.println("Name is : "+name);
+		if(name.equalsIgnoreCase("krishna")) {
+			System.out.println("Krishna is here.");
+		}
 	}
 	
     public static void main( String[] args )
